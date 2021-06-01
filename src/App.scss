@@ -1,0 +1,16 @@
+//manera css comun
+// .app h1 {
+//     color: red;
+// }
+// .app h2 {
+//     color: paleturquoise;
+// }
+@import './scss/index.scss';
+.app {
+    h1{
+        color: $primary-color
+    }
+    h2{
+        color: $primary-color
+    }
+}
