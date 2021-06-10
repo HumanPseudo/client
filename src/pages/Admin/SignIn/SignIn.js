@@ -2,6 +2,7 @@ import React from "react";
 import {Layout, Tabs} from 'antd';
 import Logo from '../../../assets/img/png/logo-white.png'
 import './SignIn.scss';
+import RegisterForm from '../../../components/Admin/RegisterForm';
 
 export default function SingIn() {
     const { Content } = Layout;
@@ -18,7 +19,7 @@ export default function SingIn() {
                             Componente LoginForm
                         </TabPane>                        
                         <TabPane tab={<span>Nuevo Usuario</span>} key="2">
-                            Componente RegisterForm
+                            <RegisterForm />
                         </TabPane>
                     </Tabs>
                 </div>
